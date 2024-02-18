@@ -4,7 +4,6 @@ import classNames from "classnames";
 import { mainMenu } from "../../../../utils/const";
 import More from "./more";
 import New from "./new";
-import PersonalArea from "../../../../pages/personal-area";
 
 export const Menu = () => {
   return (

@@ -8,7 +8,7 @@ import New from "./new";
 export const Menu = () => {
   return (
     <nav className="mt-0.5 mb-1">
-      {mainMenu.map((menu, index) => (
+      {mainMenu.map((menu) => (
         // eslint-disable-next-line react/jsx-key
         <NavLink to={menu.path} className="py-[3px] block group">
           {({ isActive }) => (
